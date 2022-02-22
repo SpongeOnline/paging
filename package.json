@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test1": "echo \"hello world!\"",
-    "push": "git add . && git commit -m \"push all\" && git push",
+    "push": "git add . && echo \"git add .执行成功！\" && git commit -m \"push all\"  && echo \"git commit 执行成功！\" && git push && echo \"git push执行成功！\"",
     "topush": "git push"
   },
   "repository": {
