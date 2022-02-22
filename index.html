@@ -1,7 +1,19 @@
 <html>
-    <head></head>
+    <head>
+        <script src="./src/components/button/button-a.js"></script>
+    </head>
     <body>
-        <div>Home page</div>
-        <button>按钮</button>
+        <div>top</div>
+        <div id="#app">
+            <div>app</div>
+        </div>
+        <div>bottom</div>
+        
+        <script>
+            let app = document.getElementById('#app')
+            let child = document.createElement('button')
+            let textNode = document.createTextNode(cktButton.template)
+            app.innerHTML="<button>test</button>"
+        </script>
     </body>
 </html>
