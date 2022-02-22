@@ -1,0 +1,21 @@
+{
+  "name": "paging",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000a\u0000g\u0000i\u0000n\u0000g\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "echo \"hello world!\"",
+    "push": "git add . && git commit -m \"push all\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpongeOnline/paging.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpongeOnline/paging/issues"
+  },
+  "homepage": "https://github.com/SpongeOnline/paging#readme"
+}
